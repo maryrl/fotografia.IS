@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio do Fotógrafo</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="bg-light py-4">
+        <div class="container text-center">
+            <h1>Igor Souza Fotografias</h1>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#ultimos-trabalhos">Últimos Trabalhos</a></li>
+                    <li><a href="#pacotes">Pacotes</a></li>
+                    <li><a href="#contato">Entrar em Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Últimos Trabalhos -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Últimos Trabalhos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/IMG-20241118-WA0199.jpg" class="card-img-top" alt="Trabalho 1">
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/IMG-20241118-WA0200.jpg" class="card-img-top" alt="Trabalho 2">
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/IMG-20241118-WA0201.jpg" class="card-img-top" alt="Trabalho 3">
+                    </div>
+                </div>
+                <!-- Adicione mais trabalhos conforme necessário -->
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/IMG-20241118-WA0202.jpg" class="card-img-top" alt="Trabalho 1">
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/IMG-20241118-WA0203.jpg" class="card-img-top" alt="Trabalho 2">
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Trabalho 3">
+                    </div>
+                </div>
+                <!-- Adicione mais trabalhos conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Pacotes -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Pacotes</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Pacote Básico</h5>
+                            <p class="card-text">Inclui 1 hora de sessão fotográfica.</p>
+                            <p class="card-text"><strong>R$ 300</strong></p>
+                            <a href="#" class="btn btn-primary">Escolher</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Pacote Intermediário</h5>
+                            <p class="card-text">Inclui 2 horas de sessão fotográfica e 20 fotos editadas.</p>
+                            <p class="card-text"><strong>R$ 600</strong></p>
+                            <a href="#" class="btn btn-primary">Escolher</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Pacote Avançado</h5>
+                            <p class="card-text">Inclui 4 horas de sessão fotográfica e 50 fotos editadas.</p>
+                            <p class="card-text"><strong>R$ 1.200</strong></p>
+                            <a href="#" class="btn btn-primary">Escolher</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botão WhatsApp -->
+    <section class="py-5">
+        <div class="container text-center">
+            <h2>Entre em Contato</h2>
+            <a href="https://wa.me/5511999999999" class="btn btn-success btn-lg" target="_blank">Contato via WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Form ulário de Contato -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Formulário de Contato</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" rows="4" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container text-center">
+            <h3>Siga nas redes sociais</h3>
+            <ul class="social-media">
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/igor.s_fotografias?igsh=Zm0wYzgxdjE2NWls" target="_blank">Instagram</a></li>
+                <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+/* style.css */
+
+/* Estilo do cabeçalho */
+header {
+    background-image: url('capa.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* A imagem cobre todo o cabeçalho */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    height: 80vh; /* Define a altura do cabeçalho para 80% da altura da viewport */
+    position: relative; /* Para a sobreposição */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px 0; /* Espaçamento superior e inferior */
+}
+
+/* Sobreposição de cor */
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1; /* Coloca a sobreposição abaixo do texto */
+}
+
+header h1 {
+    position: relative; /* Para que o texto fique acima da sobreposição */
+    font-family: 'Montserrat', sans-serif; /* Fonte Montserrat para o título */
+    font-size: 3.5rem; /* Tamanho da fonte */
+    margin: 0; /* Remove margens */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para melhorar a legibilidade */
+}
+
+header img {
+    position: relative; /* Para que a imagem fique acima da sobreposição */
+    border: 5px solid #ffcc00; /* Borda amarela ao redor da imagem */
+    border-radius: 50%; /* Mantém a imagem circular */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidade */
+}
+
+nav {
+    margin-top: 20px; /* Espaçamento acima do menu */
+}
+
+.nav-menu {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento */
+}
+
+.nav-menu li {
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+.nav-menu a {
+    color: white; /* Cor do texto do menu */
+    text-decoration: none; /* Remove sublinhado */
+    font-family: 'Montserrat', sans-serif; /* Aplica a fonte Montserrat ao menu */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    font-weight: 700; /* Negrito */
+}
+
+.nav-menu a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento superior e inferior */
+    text-align: center; /* Centraliza o texto */
+}
+
+.social-media {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento */
+}
+
+.social-media li {
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 10px; /* Espaçamento entre os itens */
+}
+
+.social-media a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+.social-media a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
